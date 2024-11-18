@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sekolah - Galeri Ekstrakurikuler</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset margin dan padding */
+        body, h1, h2, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        /* Gaya umum untuk body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header */
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #0056b3;
+        }
+
+        header h1 {
+            font-size: 2rem;
+        }
+
+        /* Navigasi */
+        nav {
+            background: #0056b3;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            display: inline-block;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        /* Section */
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            max-width: 1200px;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        /* Galeri */
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #0056b3;
+            color: #fff;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        /* Responsif */
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+
+            section {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galeri Ekstrakurikuler</h1>
+</header>
+
+<nav>
+    <a href="Index.html">Beranda</a>
+    <a href="Jurusan.html">Jurusan</a>
+    <a href="Eskul.html">Ekskul</a>
+    <a href="Formulir.html">Formulir Ekskul</a>
+    <a href="Galeri.html">Galeri Ekskul</a>
+</nav>
+
+<section id="galeri">
+    <h2>Galeri Ekstrakurikuler</h2>
+    <p>Ini adalah halaman Galeri Ekstrakurikuler. Berikut adalah beberapa kegiatan ekstrakurikuler yang dilakukan siswa-siswi kami.</p>
+    <div class="gallery">
+        <p>1. Pramuka</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLCNd5aaC5b7scA102aZy3HhGPefJ-bqKJGg&s" width="250" alt="Pramuka">
+        <p>2. Paskibra</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTdiqtNOhs67QsWQjfrJJPV8d95kwHbKpONAChXPoKTsHj7q9G8cuBmZz&s=10" width="250" alt="Paskibra">
+        <p>3. Futsal</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplKvVa4S0jpx8Hpi_Re-iOCWDMA8NmpEQFMF8VH0v627BXM2Fzjvg6aA&s=10" width="250" alt="Futsal">
+        <p>4. Basket</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ4m4XpTKL7o65gdp2J3EqKobODl84EnecBbqZABn8KQ1VdU_MeBW8-c8l&s=10" width="250" alt="Basket">
+        <p>5. Panahan</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJB9se9J3iizi2ttPTb-O3swBDpLpY69HpY3rOsu4q2i3FtYDrqRkCgD4&s=10" width="250" alt="Panahan">
+        <p>6. Pencak Silat</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSImSdzc0m2QhuWb_Z6sm4Gl_Yh4irR2hqFBEluZMNxsfrlSTGqW5ALQdZe&s=10" width="250" alt="Pencak Silat">
+        <p>7. Taekwondo</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL3hAhJ48mv_HCUMMnhC-t4sjJffF_ndOPMw&s" width="250" alt="Taekwondo">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 SMK KESUMA BANGSA 2</p>
+</footer>
+
+</body>
+</html>
